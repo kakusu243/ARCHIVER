@@ -19,15 +19,15 @@ Voici une capture d'écran de l'interface principale de l'application.
 * 📤 **Upload de fichiers** : Ajout facile de documents (PDF, DOCX, JPG, PNG...).
 * 🔍 **Recherche Avancée** : Retrouvez des documents par nom, élève, date, ou catégorie.
 * 🗂️ **Catégorisation** : Organisez les fichiers par type (Bulletins, Certificats, Devoirs...) ou par année académique.
-* 👤 **Gestion des Utilisateurs** : [Optionnel : si vous l'avez fait] Différents niveaux d'accès (Administrateur, Enseignant, Étudiant).
+* 👤 **Gestion des Utilisateurs** : Différents niveaux d'accès (Administrateur, Enseignant, Étudiant).
 * 💾 **Téléchargement sécurisé** : Récupérez les documents archivés à tout moment.
 
 ## 🛠️ Technologies utilisées
 
-* **Backend** : PHP [précisez la version, ex: 7.4 ou 8.1]
+* **Backend** : PHP 7.4
 * **Base de données** : MySQL (ou MariaDB)
-* **Frontend** : HTML5, CSS3, JavaScript [si vous en utilisez]
-* **Serveur** : Apache (recommandé, via XAMPP ou WAMP)
+* **Frontend** : HTML5, CSS3, Bootstrap et JavaScript
+* **Serveur** : Apache (recommandé, via XAMPP)
 
 ## 🚀 Installation et Démarrage
 
@@ -36,7 +36,7 @@ Suivez ces étapes pour configurer le projet sur votre machine locale.
 ### Prérequis
 
 * Un serveur web local (XAMPP, WAMP, MAMP...)
-* PHP [votre version]
+* PHP 7.4
 * MySQL / MariaDB
 * Git (recommandé)
 
@@ -69,8 +69,6 @@ Suivez ces étapes pour configurer le projet sur votre machine locale.
     * Ouvrez votre navigateur et allez à `http://localhost/ARCHIVER`
 
 ## 🤝 Contribution
-
-[Cette section est facultative, mais recommandée si votre projet est open source.]
 
 Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet, veuillez d'abord "Fork" le dépôt et créer une "Pull Request" pour soumettre vos modifications.
 
