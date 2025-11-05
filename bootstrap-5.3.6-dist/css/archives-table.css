@@ -1,0 +1,33 @@
+/* Style du tableau des archives (correspondant à la maquette fournie) */
+.custom-table {
+    border: 2px solid #bfcbe2;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.1rem;
+    background: #fff;
+}
+.custom-table th, .custom-table td {
+    border: 1px solid #bfcbe2;
+    padding: 14px 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+.custom-table th {
+    background: #f8f9fa;
+    font-weight: bold;
+    font-size: 1.13rem;
+}
+.custom-table tbody tr:nth-child(even) {
+    background: #f3f6fa;
+}
+.custom-table tbody tr:nth-child(odd) {
+    background: #fff;
+}
+.custom-table a {
+    color: #2196f3;
+    text-decoration: none;
+    font-weight: 500;
+}
+.custom-table a:hover {
+    text-decoration: underline;
+}
